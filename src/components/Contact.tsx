@@ -214,16 +214,15 @@ export default function Contact() {
 
                 <div>
                   <label className="text-slate-500 text-xs mb-1.5 block">Message *</label>
-                  <textarea
-                    name="message"
-                    value={form.message}
-                    onChange={handleChange}
-                    required
-                    minLength={20}
-                    rows={5}
-                    placeholder="Tell me about your project or opportunity..."
-                    className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-600 text-sm focus:outline-none focus:border-blue-500/50 transition-colors resize-none"
-                  />
+                <textarea
+  name="message"
+  value={form.message}
+  onChange={handleChange}
+  required
+  rows={5}
+  placeholder="Tell me about your project or opportunity..."
+  className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-600 text-sm focus:outline-none focus:border-blue-500/50 transition-colors resize-none"
+/>
                 </div>
 
                 <button

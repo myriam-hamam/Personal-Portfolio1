@@ -449,17 +449,7 @@ export const experiences = [
     desc:   'Building web applications and e-commerce platforms for clients. Delivered Aura Luxury E-Commerce and TripLink as major freelance projects.',
     skills: ['React.js', 'Node.js', 'TypeScript', 'MongoDB', 'Tailwind CSS'],
   },
-  {
-    id:     3,
-    role:   'Peer Tutor — CS & Networking',
-    org:    'Misr International University',
-    type:   'Academic',
-    period: '2023 – Present',
-    icon:   'GraduationCap',
-    color:  'from-violet-500 to-purple-400',
-    desc:   'Tutoring fellow students in Data Structures, Algorithms, OOP, Computer Networks, and Database Systems. Helping peers succeed in core computer science subjects.',
-    skills: ['Teaching', 'Data Structures', 'Networking', 'OOP', 'Databases'],
-  },
+  
   {
     id:     4,
     role:   'B.Sc. Computer Science Student',
